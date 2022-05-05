@@ -6,7 +6,7 @@ Tag1.id = 'dispari';
 Tag2.id = 'pari';
 Tag1.style.color = 'red';
 Tag2.style.color = 'green';
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 5000; i++) {
     Box.push(Math.floor(Math.random() * 100));
 }
 for (let i = 0; i < Box.length; i++) {
