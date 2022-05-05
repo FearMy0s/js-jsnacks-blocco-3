@@ -1,9 +1,11 @@
 let Somma = 0;
-let Numero = 0;
-const max = 50;
+let box = [];
 do{
-     Numero = Number(prompt("Inserisci un numero"));
+     let Numero = Number(prompt("Inserisci un numero"));
      Somma = Somma + Numero;
+     if(Somma <= 50){
+     box.push(Somma)
+     }
     }
-    while(Somma <= max)
-    console.log(Somma)
+    while(Somma <= 50)
+    console.log(box)
